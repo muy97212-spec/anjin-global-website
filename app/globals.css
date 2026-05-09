@@ -21,6 +21,17 @@
   --color-surface-alt:          #EFE9D9;
   --color-surface-deep:         #1F3D2D;   /* Inverse sections — moss */
 
+  /* Category accents — Darwin-inspired scientific palette
+     Used as "color as a signal" per Seed's playbook.
+     Each anchors one product family on /products. */
+  --color-cat-joint:            #3D7A6B;   /* Mountain green */
+  --color-cat-skin:             #5B6E94;   /* Pansy blue-violet */
+  --color-cat-digestive:        #7A4E6E;   /* Auricula purple */
+  --color-cat-vitamins:         #B89E4F;   /* Wax yellow / mustard */
+  --color-cat-calcium:          #A89472;   /* Cream buff */
+  --color-cat-lifestage:        #C8553D;   /* Reddish orange (= accent) */
+  --color-cat-specialty:        #3D5A7A;   /* Indigo blue */
+
   /* Spacing — 8px scale */
   --space-1:   4px;
   --space-2:   8px;

@@ -2,24 +2,54 @@ import * as React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
+import { ArrowUpRight } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { GatedDownload } from '@/components/ui/GatedDownload'
 import { cn } from '@/lib/utils'
 
-type CategoryKey = 'joint' | 'probiotics' | 'mushroom' | 'livestock' | 'aquatic'
+type CategoryKey =
+  | 'joint'
+  | 'skin'
+  | 'digestive'
+  | 'vitamins'
+  | 'calcium'
+  | 'lifestage'
+  | 'specialty'
+
 type FilterKey = 'all' | CategoryKey
 
-const FILTER_KEYS = ['all', 'joint', 'probiotics', 'mushroom', 'livestock', 'aquatic'] as const
+const FILTER_KEYS = [
+  'all',
+  'joint',
+  'skin',
+  'digestive',
+  'vitamins',
+  'calcium',
+  'lifestage',
+  'specialty',
+] as const
+
+const CATEGORY_VAR: Record<CategoryKey, string> = {
+  joint: 'var(--color-cat-joint)',
+  skin: 'var(--color-cat-skin)',
+  digestive: 'var(--color-cat-digestive)',
+  vitamins: 'var(--color-cat-vitamins)',
+  calcium: 'var(--color-cat-calcium)',
+  lifestage: 'var(--color-cat-lifestage)',
+  specialty: 'var(--color-cat-specialty)',
+}
 
 interface CatalogItem {
   slug: string
   category: CategoryKey
   image: string
   name: string
+  nameZh: string
   imageAlt: string
   ingredients: string
   format: string
+  summary: string
   assetName: string
 }
 
@@ -38,15 +68,17 @@ export default function ProductsPage({ searchParams }: ProductsPageProps) {
 
   const activeFilter: FilterKey = isFilterKey(searchParams.category) ? searchParams.category : 'all'
   const catalog = t.raw('catalog') as CatalogItem[]
-  const visible = activeFilter === 'all'
-    ? catalog
-    : catalog.filter((item) => item.category === activeFilter)
+  const visible =
+    activeFilter === 'all'
+      ? catalog
+      : catalog.filter((item) => item.category === activeFilter)
 
   const ctaLabel = t('grid.ctaLabel')
+  const viewLabel = t('grid.viewLabel')
   const labels = {
     ingredients: t('grid.labels.ingredients'),
     format: t('grid.labels.format'),
-    category: t('grid.labels.category'),
+    summary: t('grid.labels.summary'),
   }
   const disclaimer = tCommon('fdaDisclaimer')
 
@@ -58,9 +90,15 @@ export default function ProductsPage({ searchParams }: ProductsPageProps) {
             <span className="text-label text-[var(--color-brand-secondary)]">
               {t('hero.eyebrow')}
             </span>
-            <h1 className="text-display text-[var(--color-neutral-900)]">{t('hero.title')}</h1>
+            <h1 className="text-hero text-[var(--color-brand-primary)]">{t('hero.title')}</h1>
             <p className="text-body max-w-2xl text-[var(--color-neutral-700)]">
               {t('hero.subtitle')}
+            </p>
+            <p className="text-small text-[var(--color-neutral-700)]">
+              {visible.length}/{catalog.length} {t('grid.empty').split('.')[0].toLowerCase().includes('no') ? '' : ''}
+              <span className="ml-2 text-[var(--color-neutral-400)]">
+                {activeFilter === 'all' ? '' : t(`categoryNames.${activeFilter}`)}
+              </span>
             </p>
           </div>
         </div>
@@ -105,54 +143,89 @@ export default function ProductsPage({ searchParams }: ProductsPageProps) {
             </p>
           ) : (
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {visible.map((item) => (
-                <article
-                  key={item.slug}
-                  className="flex flex-col overflow-hidden rounded border border-[var(--color-surface-alt)] bg-[var(--color-surface)] shadow-sm"
-                >
-                  <div className="relative aspect-[4/3] w-full bg-[var(--color-surface-alt)]">
-                    <Image
-                      src={`/images/products/${item.image}.svg`}
-                      alt={item.imageAlt}
-                      fill
-                      sizes="(min-width: 1024px) 30vw, (min-width: 768px) 50vw, 100vw"
-                      className="object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="flex flex-1 flex-col gap-4 p-6">
-                    <div className="flex items-start justify-between gap-3">
-                      <h2 className="text-h3 text-[var(--color-neutral-900)]">{item.name}</h2>
-                      <span className="text-label inline-flex shrink-0 rounded bg-[var(--color-surface-alt)] px-2 py-1 text-[var(--color-brand-primary)]">
+              {visible.map((item) => {
+                const accent = CATEGORY_VAR[item.category]
+                return (
+                  <article
+                    key={item.slug}
+                    className="group relative flex flex-col overflow-hidden rounded border border-[var(--color-surface-alt)] bg-[var(--color-surface)] shadow-sm transition-shadow hover:shadow-lg"
+                  >
+                    <Link
+                      href={`/${locale}/products/${item.slug}`}
+                      aria-label={`${viewLabel}: ${item.name}`}
+                      className="relative block aspect-square w-full overflow-hidden"
+                      style={{ backgroundColor: `color-mix(in srgb, ${accent} 8%, var(--color-surface))` }}
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="absolute inset-x-0 top-0 h-1"
+                        style={{ backgroundColor: accent }}
+                      />
+                      <Image
+                        src={`/images/products/catalog/${item.image}.png`}
+                        alt={item.imageAlt}
+                        fill
+                        sizes="(min-width: 1024px) 30vw, (min-width: 768px) 50vw, 100vw"
+                        className="object-contain p-8 transition-transform duration-300 group-hover:scale-[1.04]"
+                        loading="lazy"
+                      />
+                      <span
+                        className="text-label absolute bottom-4 left-4 inline-flex rounded-sm px-3 py-1 text-[var(--color-surface)]"
+                        style={{ backgroundColor: accent }}
+                      >
                         {t(`categoryNames.${item.category}`)}
                       </span>
-                    </div>
-                    <dl className="flex flex-col gap-3 text-small text-[var(--color-neutral-700)]">
-                      <div>
-                        <dt className="text-label text-[var(--color-neutral-400)]">
-                          {labels.ingredients}
-                        </dt>
-                        <dd className="mt-1">{item.ingredients}</dd>
+                    </Link>
+
+                    <div className="flex flex-1 flex-col gap-4 p-6">
+                      <div className="flex items-baseline justify-between gap-3">
+                        <h2 className="text-h3 text-[var(--color-brand-primary)]">{item.name}</h2>
+                        <span
+                          lang="zh-CN"
+                          className="text-small shrink-0 text-[var(--color-neutral-400)]"
+                        >
+                          {item.nameZh}
+                        </span>
                       </div>
-                      <div>
-                        <dt className="text-label text-[var(--color-neutral-400)]">
-                          {labels.format}
-                        </dt>
-                        <dd className="mt-1">{item.format}</dd>
+
+                      <p className="text-body text-[var(--color-neutral-700)]">{item.summary}</p>
+
+                      <dl className="flex flex-col gap-3 text-small text-[var(--color-neutral-700)]">
+                        <div>
+                          <dt className="text-label text-[var(--color-neutral-400)]">
+                            {labels.ingredients}
+                          </dt>
+                          <dd className="mt-1">{item.ingredients}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-label text-[var(--color-neutral-400)]">
+                            {labels.format}
+                          </dt>
+                          <dd className="mt-1">{item.format}</dd>
+                        </div>
+                      </dl>
+
+                      <div className="mt-auto flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:justify-between">
+                        <Link
+                          href={`/${locale}/products/${item.slug}`}
+                          className="text-small inline-flex items-center gap-1 font-medium text-[var(--color-brand-primary)] hover:underline"
+                        >
+                          {viewLabel}
+                          <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                        </Link>
+                        <GatedDownload
+                          assetName={item.assetName}
+                          assetType="spec-sheet"
+                          ctaLabel={ctaLabel}
+                          triggerVariant="ghost"
+                        />
                       </div>
-                    </dl>
-                    <div className="mt-auto pt-2">
-                      <GatedDownload
-                        assetName={item.assetName}
-                        assetType="spec-sheet"
-                        ctaLabel={ctaLabel}
-                        triggerVariant="ghost"
-                      />
+
+                      <p className="text-small text-[var(--color-neutral-400)]">{disclaimer}</p>
                     </div>
-                    <p className="text-small text-[var(--color-neutral-400)]">{disclaimer}</p>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                )
+              })}
             </div>
           )}
         </div>
