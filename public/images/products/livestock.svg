@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Livestock supplement powders and pre-mixes">
+  <defs>
+    <linearGradient id="bg-lv" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A5C8A"/>
+      <stop offset="1" stop-color="#2D3748"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-lv)"/>
+  <g fill="#F7FAFC" opacity="0.92">
+    <rect x="200" y="320" width="160" height="180" rx="10"/>
+    <rect x="380" y="290" width="160" height="210" rx="10"/>
+    <rect x="560" y="340" width="120" height="160" rx="10"/>
+  </g>
+  <g fill="#0A5C8A">
+    <rect x="220" y="345" width="120" height="22" rx="2"/>
+    <rect x="400" y="315" width="120" height="22" rx="2"/>
+    <rect x="575" y="365" width="90" height="22" rx="2"/>
+  </g>
+  <g fill="#F5A623" opacity="0.9">
+    <circle cx="280" cy="420" r="6"/>
+    <circle cx="305" cy="445" r="4"/>
+    <circle cx="460" cy="395" r="6"/>
+    <circle cx="485" cy="425" r="4"/>
+    <circle cx="620" cy="420" r="5"/>
+  </g>
+  <text x="400" y="140" text-anchor="middle" fill="#F7FAFC" font-family="Inter, system-ui" font-size="28" font-weight="600" letter-spacing="2">LIVESTOCK</text>
+  <text x="400" y="178" text-anchor="middle" fill="#F7FAFC" opacity="0.75" font-family="Inter, system-ui" font-size="16">Pre-mixes · Oral solutions · Granules</text>
+</svg>

@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand — Seed-inspired moss/forest green system */
+  --color-brand-primary:        #1F3D2D;   /* Deep moss — primary anchor */
+  --color-brand-primary-soft:   #3D5A47;   /* Mid moss — secondary surfaces */
+  --color-brand-secondary:      #00A884;   /* Science teal — kept */
+  --color-brand-accent:         #C8553D;   /* Warm terracotta — CTAs */
+  --color-brand-accent-soft:    #E8C5A0;   /* Soft sand — hero highlights */
+
+  /* Neutrals — warm */
+  --color-neutral-900:          #1A2421;
+  --color-neutral-700:          #3D4A45;
+  --color-neutral-400:          #9AA39E;
+  --color-neutral-100:          #F5F1E8;
+
+  /* Surfaces — warm cream system */
+  --color-surface:              #FBF8F1;
+  --color-surface-alt:          #EFE9D9;
+  --color-surface-deep:         #1F3D2D;   /* Inverse sections — moss */
+
+  /* Spacing — 8px scale */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-24:  96px;
+  --space-32:  128px;
+
+  /* Radii */
+  --radius-button: 2px;
+  --radius-card:   4px;
+  --radius-modal:  8px;
+
+  /* Shadows — warm-tinted */
+  --shadow-sm: 0 1px 2px rgba(31, 61, 45, 0.06), 0 1px 3px rgba(31, 61, 45, 0.04);
+  --shadow-lg: 0 10px 25px rgba(31, 61, 45, 0.12), 0 4px 10px rgba(31, 61, 45, 0.06);
+
+  /* Typography scale */
+  --font-hero:     72px;   /* Home hero only — editorial display */
+  --font-display:  56px;
+  --font-h1:       40px;
+  --font-h2:       32px;
+  --font-h3:       24px;
+  --font-body:     16px;
+  --font-small:    14px;
+  --font-label:    12px;
+
+  --leading-hero:    76px;
+  --leading-display: 64px;
+  --leading-h1:      48px;
+  --leading-h2:      40px;
+  --leading-h3:      32px;
+  --leading-body:    28px;
+  --leading-small:   22px;
+  --leading-label:   16px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-neutral-900);
+    font-size: var(--font-body);
+    line-height: var(--leading-body);
+  }
+
+  ::selection {
+    background-color: var(--color-brand-primary);
+    color: var(--color-surface);
+  }
+}
+
+@layer components {
+  .text-hero {
+    font-size: var(--font-display);
+    line-height: var(--leading-display);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  @media (min-width: 1024px) {
+    .text-hero {
+      font-size: var(--font-hero);
+      line-height: var(--leading-hero);
+    }
+  }
+
+  .text-display {
+    font-size: var(--font-display);
+    line-height: var(--leading-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .text-h1 {
+    font-size: var(--font-h1);
+    line-height: var(--leading-h1);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .text-h2 {
+    font-size: var(--font-h2);
+    line-height: var(--leading-h2);
+    font-weight: 600;
+  }
+
+  .text-h3 {
+    font-size: var(--font-h3);
+    line-height: var(--leading-h3);
+    font-weight: 600;
+  }
+
+  .text-body {
+    font-size: var(--font-body);
+    line-height: var(--leading-body);
+    font-weight: 400;
+  }
+
+  .text-small {
+    font-size: var(--font-small);
+    line-height: var(--leading-small);
+    font-weight: 400;
+  }
+
+  .text-label {
+    font-size: var(--font-label);
+    line-height: var(--leading-label);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}

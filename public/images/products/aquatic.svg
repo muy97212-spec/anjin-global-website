@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Aquatic supplements and water quality products">
+  <defs>
+    <linearGradient id="bg-aq" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A884"/>
+      <stop offset="1" stop-color="#0A5C8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-aq)"/>
+  <g fill="#F7FAFC" opacity="0.18">
+    <path d="M0 460 Q 200 420 400 460 T 800 460 L 800 600 L 0 600 Z"/>
+    <path d="M0 510 Q 200 470 400 510 T 800 510 L 800 600 L 0 600 Z"/>
+  </g>
+  <g fill="#F7FAFC" opacity="0.95">
+    <path d="M260 380 Q 360 300 460 380 Q 460 420 410 430 L 280 430 Q 240 420 260 380 Z"/>
+    <circle cx="430" cy="365" r="5" fill="#0F1923"/>
+    <path d="M460 380 L 520 350 L 520 410 Z"/>
+  </g>
+  <g fill="#F5A623" opacity="0.85">
+    <circle cx="180" cy="350" r="6"/>
+    <circle cx="220" cy="390" r="4"/>
+    <circle cx="600" cy="320" r="5"/>
+    <circle cx="640" cy="360" r="4"/>
+  </g>
+  <text x="400" y="140" text-anchor="middle" fill="#F7FAFC" font-family="Inter, system-ui" font-size="28" font-weight="600" letter-spacing="2">AQUATIC</text>
+  <text x="400" y="178" text-anchor="middle" fill="#F7FAFC" opacity="0.75" font-family="Inter, system-ui" font-size="16">Functional supplements · Water quality</text>
+</svg>

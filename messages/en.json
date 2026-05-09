@@ -1,0 +1,834 @@
+{
+  "common": {
+    "fdaDisclaimer": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Manufactured in an FDA-Registered Facility under cGMP standards.",
+    "download": "Download",
+    "loading": "Loading…",
+    "close": "Close",
+    "downloadAria": "Download {asset}"
+  },
+  "nav": {
+    "primary": "Primary navigation",
+    "mobile": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "ctaSamples": "Request Samples",
+    "links": {
+      "products": "Products",
+      "oemOdm": "OEM / ODM",
+      "certifications": "Certifications",
+      "about": "About",
+      "blog": "Insights",
+      "contact": "Contact"
+    },
+    "selectLanguage": "Select language"
+  },
+  "footer": {
+    "tagline": "Henan Anjin Biotechnology Co., Ltd. — FDA-registered, cGMP-compliant OEM/ODM pet supplement manufacturer with 16+ years of formulation expertise.",
+    "address": "Zhengzhou, Henan Province, China · 60,000 sqm across 3 GMP production bases",
+    "certificationsLine": "FDA Registered · GMP Certified · CE Certified",
+    "rights": "All rights reserved.",
+    "columns": {
+      "products": {
+        "heading": "Products",
+        "links": {
+          "hipJoint": "Hip & Joint Soft Chews",
+          "probiotic": "Probiotic Soft Chews",
+          "mushroom": "Functional Mushroom",
+          "livestockAquatic": "Livestock & Aquatic"
+        }
+      },
+      "capabilities": {
+        "heading": "Capabilities",
+        "links": {
+          "oemOdm": "OEM / ODM Services",
+          "formulation": "Formulation",
+          "production": "Production Lines",
+          "quality": "Quality & Compliance"
+        }
+      },
+      "company": {
+        "heading": "Company",
+        "links": {
+          "about": "About Anjin",
+          "certifications": "Certifications",
+          "blog": "Insights",
+          "contact": "Contact"
+        }
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "FDA-Registered · cGMP Manufacturing",
+      "title": "Globally compliant pet supplements for international brands.",
+      "subtitle": "Anjin Global is a long-term supply chain partner for pet supplement brands. 60,000 sqm across three GMP-certified production bases in Henan, China — formulating and manufacturing soft chews, powders and functional supplements at scale.",
+      "primaryCta": "Download Product Catalog",
+      "secondaryCta": "Book a Consultation",
+      "catalogAssetName": "Anjin Global Product Catalog 2026",
+      "proudLine": "Proud to be FDA-Registered since 2008.",
+      "imageAlt": "Anjin pet supplement soft chews — formulation showcase"
+    },
+    "trustBar": {
+      "label": "Trusted compliance, audited globally",
+      "items": [
+        "FDA Registered",
+        "cGMP Certified",
+        "EU CE + GPSR",
+        "16 Years Operating",
+        "60,000 sqm Facility"
+      ]
+    },
+    "metrics": {
+      "eyebrow": "Capacity at a glance",
+      "title": "Built for global brands that need supply they can plan around.",
+      "items": [
+        { "value": "16", "suffix": "+", "label": "Years of formulation expertise" },
+        { "value": "500", "suffix": "+", "label": "Active formulations on file" },
+        { "value": "60,000", "suffix": " sqm", "label": "GMP production footprint" },
+        { "value": "30", "suffix": "+", "label": "Production lines across 3 bases" }
+      ]
+    },
+    "whyAnjin": {
+      "eyebrow": "Why global brands choose Anjin",
+      "title": "Six reasons procurement teams shortlist us before sampling.",
+      "subtitle": "Each claim below is documented in our certifications dossier — no marketing language, no asterisks.",
+      "features": [
+        {
+          "title": "FDA-registered, cGMP-compliant",
+          "body": "Every shipment leaves a facility registered with the U.S. Food and Drug Administration (Reg. 19620201066) and operated under cGMP. Documentation flows with the product."
+        },
+        {
+          "title": "500+ formulations on file",
+          "body": "Pick from our library or co-develop with our R&D centre. Custom formulations sample in 2–4 weeks; new recipes are reviewed against your destination market regulations before sampling."
+        },
+        {
+          "title": "Three GMP production bases",
+          "body": "60,000 sqm across Xinxiang, Xingyang and Shangcai. 30+ production lines covering soft chews, powders, sachets, tablets, granules, oral solutions and pre-mixes."
+        },
+        {
+          "title": "EU CE + GPSR declared",
+          "body": "ICR-issued Declaration of Conformity for applicable models — your customs broker and retailer intake teams already recognise the format."
+        },
+        {
+          "title": "35–45 day production lead time",
+          "body": "From 30% T/T deposit received. Stock samples ship in 3–5 days; FOB Shanghai, CIF Los Angeles or DDP New York. Quote validity 30 days."
+        },
+        {
+          "title": "One named contact, 24-hour replies",
+          "body": "A single OEM contact owns your programme from first brief to first commercial shipment. Every business-email enquiry receives a reply within 24 hours."
+        }
+      ]
+    },
+    "buyerJourney": {
+      "eyebrow": "How procurement teams work with us",
+      "title": "Five checkpoints from first contact to long-term supply.",
+      "subtitle": "Every conversation with Anjin reduces procurement risk by working through the same five gates that global compliance, quality and supply teams expect.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Credibility Validation",
+          "body": "Verify our 16-year operating history, university research partnerships and industry honours before any sample request."
+        },
+        {
+          "number": "02",
+          "title": "Compliance Verification",
+          "body": "Inspect FDA Food Facility Registration, Veterinary Drug GMP, EU CE + GPSR and export filings. Documents are downloadable on request."
+        },
+        {
+          "number": "03",
+          "title": "Capacity Confirmation",
+          "body": "Tour the 60,000 sqm production network — three GMP bases, 30+ lines, 300 staff — and confirm fit for your annual volume forecast."
+        },
+        {
+          "number": "04",
+          "title": "Supply Stability",
+          "body": "Lock formulation, MOQ tiers, lead times and Incoterms. Production lead time 35–45 days from deposit received."
+        },
+        {
+          "number": "05",
+          "title": "Lead Conversion",
+          "body": "Move from sample to first commercial order under transparent terms: 30% T/T deposit, 70% against B/L copy, FOB Shanghai or DDP delivery."
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Priority product lines",
+      "title": "Three soft chew categories engineered for global pet supplement brands.",
+      "subtitle": "All three priority lines are formulated, manufactured and packaged in our FDA-registered, cGMP-certified facilities and ship under your private label.",
+      "ctaLabel": "Download spec sheet",
+      "labels": {
+        "ingredients": "Key ingredients",
+        "format": "Format",
+        "marketContext": "Market context"
+      },
+      "items": [
+        {
+          "title": "Hip & Joint Soft Chews",
+          "imageAlt": "Anjin hip and joint soft chews",
+          "ingredients": "Glucosamine · Chondroitin · MSM · Green Lipped Mussel",
+          "format": "Soft chews · 90–120 count per bottle",
+          "marketNote": "Largest category — 28% market share, $2.1B globally.",
+          "assetName": "Hip & Joint Soft Chews — Spec Sheet"
+        },
+        {
+          "title": "Probiotic Soft Chews & Powder",
+          "imageAlt": "Anjin probiotic soft chews and powder sachets",
+          "ingredients": "Lactobacillus · Bifidobacterium · Prebiotics · Digestive enzymes",
+          "format": "60–90 soft chews per bottle, or 30-sachet powder packs",
+          "marketNote": "Fastest growing category — 11.4% CAGR.",
+          "assetName": "Probiotic Soft Chews & Powder — Spec Sheet"
+        },
+        {
+          "title": "Functional Mushroom Soft Chews",
+          "imageAlt": "Anjin functional mushroom soft chews",
+          "ingredients": "Turkey Tail · Lion's Mane · Reishi · Cordyceps",
+          "format": "Soft chews · 90–120 count per bottle",
+          "marketNote": "Sourced from China — globally unmatched cost and quality.",
+          "assetName": "Functional Mushroom Soft Chews — Spec Sheet"
+        }
+      ]
+    },
+    "socialProof": {
+      "eyebrow": "Audited and recognised",
+      "title": "Certifications, registrations and industry honours backing every shipment.",
+      "subtitle": "Documents available on request — every certificate listed below is downloadable to your procurement and compliance teams.",
+      "badges": [
+        {
+          "label": "FDA Food Facility Registration",
+          "issuer": "U.S. FDA · Reg. No. 19620201066 · Valid through 2026-12-31"
+        },
+        {
+          "label": "Veterinary Drug GMP",
+          "issuer": "PRC Ministry of Agriculture · Re-certified 2008 / 2011 / 2016 / 2023"
+        },
+        {
+          "label": "EU CE + GPSR Declaration of Conformity",
+          "issuer": "ICR Notified Body · GPSR (2023/988/EU) · Valid through 2031-01"
+        },
+        {
+          "label": "Feed Additive Production Licence",
+          "issuer": "PRC Ministry of Agriculture and Rural Affairs"
+        },
+        {
+          "label": "Export Filing Registration",
+          "issuer": "PRC General Administration of Customs"
+        },
+        {
+          "label": "National High-Tech Enterprise",
+          "issuer": "PRC Ministry of Science and Technology"
+        }
+      ],
+      "associationsHeading": "Industry associations and academic partners",
+      "associations": [
+        "Henan Animal Husbandry Engineering Technology Association — Vice Chair",
+        "Henan Sheep Industry Association — Vice Chair",
+        "Henan Beef Cattle Industry Association — Vice Chair",
+        "Henan Animal Healthcare Products Association — Standing Director",
+        "Henan Agricultural University — Research partner",
+        "Henan University of Animal Husbandry and Economy — Research partner",
+        "Henan University of Chinese Medicine — Research partner",
+        "Henan Normal University — Research partner"
+      ]
+    },
+    "ctaBanner": {
+      "eyebrow": "Ready to evaluate Anjin?",
+      "title": "Request free samples — stock samples ship in 3–5 days.",
+      "subtitle": "Custom formulations sample in 2–4 weeks. We respond to every enquiry within 24 hours.",
+      "primaryCta": "Request Free Samples",
+      "secondaryCta": "Talk to our OEM team"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact Anjin Global",
+      "title": "Talk to the OEM/ODM team — we reply within 24 hours.",
+      "subtitle": "Tell us your destination market, target format and annual volume. We respond with a feasibility note, indicative pricing and a sample plan within one business day."
+    },
+    "methods": {
+      "eyebrow": "How to reach us",
+      "title": "Three direct channels — pick whichever your team uses.",
+      "items": {
+        "email": {
+          "label": "Business email",
+          "value": "partnerships@anjin-global.com",
+          "description": "For OEM/ODM enquiries, certifications, and procurement teams. Use a corporate domain — free email providers are filtered."
+        },
+        "whatsapp": {
+          "label": "WhatsApp",
+          "value": "Available on request",
+          "description": "International business line shared after the first response. Submit the form opposite to receive the number alongside your feasibility note."
+        },
+        "address": {
+          "label": "Marketing centre",
+          "valueEn": "Xinyuan Financial Plaza, Jingsan Road, Jinshui District, Zhengzhou, Henan Province, China",
+          "valueZh": "郑州市金水区经三路鑫苑金融广场",
+          "description": "Visits to the production bases in Xinxiang, Xingyang and Shangcai are arranged on request — coordinated through the marketing centre."
+        },
+        "sla": {
+          "label": "Response time",
+          "value": "Within 24 hours",
+          "description": "Every business-email enquiry receives a reply within 24 hours, weekdays Asia/Shanghai. Custom-formulation feasibility notes follow within three business days."
+        }
+      }
+    },
+    "map": {
+      "eyebrow": "Where we are",
+      "title": "Marketing centre in Zhengzhou — production network across Henan.",
+      "subtitle": "The marketing centre is the first contact point for international brands. Production runs from three GMP-certified bases in Xinxiang, Xingyang and Shangcai.",
+      "iframeTitle": "Map of Anjin Global marketing centre, Zhengzhou, Henan, China",
+      "openInMaps": "Open in Google Maps"
+    },
+    "expectations": {
+      "eyebrow": "What happens after you write",
+      "title": "Three steps from first message to first sample.",
+      "steps": [
+        {
+          "title": "Reply within 24 hours",
+          "body": "Our OEM team responds with a feasibility note acknowledging your brief and confirming next steps."
+        },
+        {
+          "title": "Feasibility note within three business days",
+          "body": "For custom briefs we send indicative pricing, format options and the projected sample lead time."
+        },
+        {
+          "title": "Stock or custom samples",
+          "body": "Stock samples ship in 3–5 days from Zhengzhou; custom-formulated samples are produced in 2–4 weeks."
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Anjin Global",
+      "title": "Sixteen years building supply chain infrastructure for global pet supplement brands.",
+      "subtitle": "Henan Anjin Biotechnology Co., Ltd. operates 60,000 sqm across three GMP-certified production bases in Henan, China. We are an FDA-registered, cGMP-compliant OEM/ODM manufacturer for international pet, livestock and aquatic supplement brands."
+    },
+    "mission": {
+      "eyebrow": "Mission and values",
+      "title": "We exist to make global supplement supply predictable, compliant and audit-ready.",
+      "subtitle": "Procurement teams choose Anjin when supply continuity, regulatory documentation and formulation depth matter more than spot price.",
+      "values": [
+        {
+          "title": "Compliance before commerce",
+          "body": "Every formulation is reviewed against the destination market's regulations before sampling. FDA registration, cGMP and EU CE + GPSR are baseline expectations, not selling points."
+        },
+        {
+          "title": "Long-term supply, not transactional supply",
+          "body": "We design our capacity around multi-year programmes for international brands. 30% T/T deposit and 70% against B/L copy stay consistent year on year."
+        },
+        {
+          "title": "In-house formulation depth",
+          "body": "500+ active formulations on file, two provincial research centres, and partnerships with four Henan universities. New formulas develop from a written brief in 2–4 weeks."
+        },
+        {
+          "title": "Built for global brands, not commodity buyers",
+          "body": "Anjin is not a low-cost workshop. We invest in documentation, traceability and process engineering — the things that survive a retailer or regulator audit."
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Sixteen years of operating history",
+      "title": "From founding to the current GMP cycle.",
+      "subtitle": "Each milestone below is verifiable through our certification dossier or provincial industrial filings.",
+      "milestones": [
+        {
+          "year": "2008",
+          "title": "Founded in Zhengzhou, Henan",
+          "body": "Henan Anjin Biotechnology Co., Ltd. is established. Initial Veterinary Drug GMP cycle is passed in the same year."
+        },
+        {
+          "year": "2011",
+          "title": "GMP recertification",
+          "body": "Second GMP cycle passed; manufacturing scope and quality system extended."
+        },
+        {
+          "year": "2016",
+          "title": "Capacity expansion and recertification",
+          "body": "Production lines expanded across the Xinxiang base; third GMP cycle completed."
+        },
+        {
+          "year": "2018–2019",
+          "title": "Two new GMP production bases",
+          "body": "Additional bases brought online in Xingyang and Shangcai (河南中牧威锋生物工程 and 河南安进生物工程), bringing the network to three GMP sites totalling 60,000 sqm."
+        },
+        {
+          "year": "2023",
+          "title": "New-version GMP cycle",
+          "body": "Fourth GMP cycle passed under the PRC Ministry of Agriculture's new-version requirements; remains the current operating certificate."
+        }
+      ]
+    },
+    "factory": {
+      "eyebrow": "Factory footprint",
+      "title": "Three GMP-certified production bases across Henan.",
+      "subtitle": "Operated as one network with shared quality and documentation systems. Each base specialises in formats that suit its production lines.",
+      "metrics": [
+        { "value": "3", "label": "GMP-certified production bases" },
+        { "value": "60,000", "suffix": " sqm", "label": "Total facility area" },
+        { "value": "300", "label": "Employees across all sites" },
+        { "value": "30", "suffix": "+", "label": "Production lines in operation" }
+      ],
+      "basesHeading": "The three bases at a glance",
+      "bases": [
+        {
+          "tag": "Base 1 · Xinxiang, Henan",
+          "title": "Henan Anjin Biotechnology Co., Ltd.",
+          "body": "Original manufacturing site, founded 2008. Anchors pet supplement soft chews, powders and oral solutions, plus the head-office quality and R&D systems."
+        },
+        {
+          "tag": "Base 2 · Xingyang, Henan",
+          "title": "Henan Zhongmu Weifeng Bioengineering Co., Ltd.",
+          "body": "Specialises in feed additives, pre-mixes and granules. Brought online during the 2018–2019 expansion to support livestock-supplement programmes."
+        },
+        {
+          "tag": "Base 3 · Shangcai, Henan",
+          "title": "Henan Anjin Bioengineering Co., Ltd.",
+          "body": "Focuses on aquatic supplements, water quality improvers and TCM-extract feed additives. Completed during the 2018–2019 expansion."
+        }
+      ]
+    },
+    "universities": {
+      "eyebrow": "University partnerships",
+      "title": "Four Henan universities collaborate on formulation and process research.",
+      "subtitle": "Joint research keeps our formulation library current and underpins our standing as a National High-Tech Enterprise.",
+      "items": [
+        {
+          "name": "Henan Agricultural University",
+          "nameZh": "河南农业大学",
+          "focus": "Joint research partner"
+        },
+        {
+          "name": "Henan University of Animal Husbandry and Economy",
+          "nameZh": "河南牧业经济学院",
+          "focus": "Joint research partner"
+        },
+        {
+          "name": "Henan University of Chinese Medicine",
+          "nameZh": "河南中医药大学",
+          "focus": "Joint research partner"
+        },
+        {
+          "name": "Henan Normal University",
+          "nameZh": "河南师范大学",
+          "focus": "Joint research partner"
+        }
+      ]
+    },
+    "research": {
+      "eyebrow": "Research centres",
+      "title": "Two provincial engineering research centres housed within Anjin.",
+      "subtitle": "Each centre is recognised by Henan Province authorities and supports both internal R&D and joint projects with our university partners.",
+      "centres": [
+        {
+          "name": "Henan Province Engineering Technology Research Centre for Animal Parasite Disease Control Drugs",
+          "nameZh": "河南省动物寄生虫病防控药物工程技术研究中心",
+          "body": "Develops formulations and production processes for animal parasite control products, supporting our livestock supplement and feed additive lines."
+        },
+        {
+          "name": "Henan Province Engineering Technology Research Centre for Traditional Chinese Medicine Fermentation Bioengineering",
+          "nameZh": "河南省中药发酵生物工程技术研究中心",
+          "body": "Specialises in TCM-derived functional ingredients and fermentation bioengineering — underpinning our functional mushroom and TCM-extract pet supplement lines."
+        }
+      ]
+    },
+    "honours": {
+      "eyebrow": "Awards and industry honours",
+      "title": "Provincial honours, industry recognitions and association leadership roles.",
+      "subtitle": "Recognised by the Henan provincial government, multiple industry associations and the Chinese aquatic supplement industry.",
+      "items": [
+        {
+          "label": "Henan Province Famous Trademark",
+          "issuer": "Henan Province Administration for Market Regulation"
+        },
+        {
+          "label": "2024 Henan Animal Husbandry Best Innovation Brand Enterprise Award",
+          "issuer": "Henan Province Animal Husbandry Industry"
+        },
+        {
+          "label": "2023 Henan Animal Husbandry Best Science & Technology Innovation Award",
+          "issuer": "Henan Province Animal Husbandry Industry"
+        },
+        {
+          "label": "2021 Henan Animal Husbandry Leading Brand",
+          "issuer": "Henan Province Animal Husbandry Industry"
+        },
+        {
+          "label": "2021 China Aquatic Inputs Industry Top 10 Brands",
+          "issuer": "China Aquatic Inputs Industry annual ranking"
+        },
+        {
+          "label": "Henan Animal Husbandry Engineering Technology Association — Vice Chair",
+          "issuer": "Provincial industry association leadership role"
+        },
+        {
+          "label": "Henan Sheep Industry Association — Vice Chair",
+          "issuer": "Provincial industry association leadership role"
+        },
+        {
+          "label": "Henan Beef Cattle Industry Association — Vice Chair",
+          "issuer": "Provincial industry association leadership role"
+        },
+        {
+          "label": "Henan Animal Healthcare Products Association — Standing Director",
+          "issuer": "Provincial industry association leadership role"
+        }
+      ]
+    },
+    "footerCta": {
+      "eyebrow": "Work with Anjin",
+      "title": "Talk to the team behind sixteen years of FDA-registered manufacturing.",
+      "subtitle": "Our OEM team replies within 24 hours. Stock samples ship in 3–5 days; custom formulations sample in 2–4 weeks.",
+      "primaryCta": "Talk to our OEM team",
+      "secondaryCta": "Browse the catalog"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "eyebrow": "Certifications & compliance",
+      "title": "Audited by the agencies your procurement and compliance teams already recognise.",
+      "subtitle": "FDA-registered, cGMP-compliant, EU CE + GPSR declared, and recognised by the PRC Ministry of Agriculture, General Administration of Customs and provincial regulators. Documents are available to qualified procurement teams on request."
+    },
+    "primary": {
+      "eyebrow": "Core certifications",
+      "title": "The five documents your buyer requires before sampling.",
+      "subtitle": "Each badge below corresponds to an active registration, licence or declaration. Issuing authority and validity period are listed alongside.",
+      "badges": [
+        {
+          "label": "FDA Food Facility Registration",
+          "issuer": "U.S. Food and Drug Administration · Reg. No. 19620201066 · Categories: Pet Food and Vitamins · Valid through 2026-12-31"
+        },
+        {
+          "label": "Veterinary Drug GMP",
+          "issuer": "PRC Ministry of Agriculture · Re-certified 2008 / 2011 / 2016 / 2023 · 2023 cycle covers the new-version GMP requirements"
+        },
+        {
+          "label": "EU CE + GPSR Declaration of Conformity",
+          "issuer": "ICR Notified Body · GPSR (2023/988/EU) + EN 12546-1:2000 · Models MC001 · MC002 · AJ001 · Valid through 2031-01"
+        },
+        {
+          "label": "Export Filing Registration",
+          "issuer": "PRC General Administration of Customs · Filing for international shipment of pet supplements and feed additives"
+        },
+        {
+          "label": "National High-Tech Enterprise",
+          "issuer": "PRC Ministry of Science and Technology · Recognises in-house R&D capability across formulation and process engineering"
+        }
+      ]
+    },
+    "secondary": {
+      "eyebrow": "Provincial recognitions and licences",
+      "title": "Additional certifications, licences and research recognitions.",
+      "subtitle": "Provincial recognitions complement national registrations and confirm continued investment in capability and innovation.",
+      "badges": [
+        {
+          "label": "Feed Additive Production Licence",
+          "issuer": "PRC Ministry of Agriculture and Rural Affairs"
+        },
+        {
+          "label": "Henan \"Specialised, Refined, Distinctive\" SME",
+          "issuer": "Henan Province Department of Industry and Information Technology"
+        },
+        {
+          "label": "Henan Province Smart Workshop",
+          "issuer": "Henan Province Department of Industry and Information Technology"
+        },
+        {
+          "label": "Henan Province Enterprise Technology Centre",
+          "issuer": "Henan Province Development and Reform Commission"
+        },
+        {
+          "label": "Postdoctoral Innovation Practice Base",
+          "issuer": "Henan Province Department of Human Resources and Social Security"
+        },
+        {
+          "label": "Henan Province Famous Trademark",
+          "issuer": "Henan Province Administration for Market Regulation"
+        }
+      ]
+    },
+    "downloads": {
+      "eyebrow": "Downloadable compliance dossier",
+      "title": "Request the documents your audit, customs and retail intake teams need.",
+      "subtitle": "Each file is shared after a short business-email check. Our team replies within 24 hours; certificates are issued in PDF.",
+      "items": [
+        {
+          "assetName": "FDA Food Facility Registration Certificate (Reg. 19620201066)",
+          "assetType": "whitepaper",
+          "ctaLabel": "Request FDA FFR certificate"
+        },
+        {
+          "assetName": "Veterinary Drug GMP Certificate (2023 cycle)",
+          "assetType": "whitepaper",
+          "ctaLabel": "Request GMP certificate"
+        },
+        {
+          "assetName": "EU CE + GPSR Declaration of Conformity (Models MC001 / MC002 / AJ001)",
+          "assetType": "whitepaper",
+          "ctaLabel": "Request CE declaration"
+        },
+        {
+          "assetName": "Sample Certificate of Analysis — Pet Supplement Soft Chews",
+          "assetType": "coa",
+          "ctaLabel": "Request sample COA"
+        }
+      ]
+    },
+    "compliance": {
+      "eyebrow": "Compliance statement",
+      "title": "How we position Anjin-manufactured product on your label.",
+      "body": "All Anjin Global product is formulated, manufactured and packaged in facilities registered with the U.S. Food and Drug Administration and operated under cGMP. Soft chews, powders and supplement formats produced for global pet brands are released against batch Certificates of Analysis. Our EU CE + GPSR Declaration of Conformity is issued by ICR for applicable models. Statements appearing on retail labels remain the responsibility of the brand owner; Anjin supports the standard FDA disclaimer below."
+    }
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "Product catalog",
+      "title": "Pet, livestock and aquatic supplement formats — manufactured under FDA registration and cGMP.",
+      "subtitle": "Browse the lines we currently produce for global brands. Every formulation is private-label ready, with spec sheets and Certificates of Analysis available to qualified procurement teams."
+    },
+    "filters": {
+      "label": "Filter by category",
+      "ariaLabel": "Filter products by category",
+      "all": "All products",
+      "joint": "Joint",
+      "probiotics": "Probiotics",
+      "mushroom": "Mushroom",
+      "livestock": "Livestock",
+      "aquatic": "Aquatic"
+    },
+    "grid": {
+      "ctaLabel": "Download spec sheet",
+      "labels": {
+        "ingredients": "Key ingredients",
+        "format": "Format",
+        "category": "Category"
+      },
+      "empty": "No products in this category yet. Browse the full catalog or contact our OEM team for custom formulations."
+    },
+    "categoryNames": {
+      "joint": "Joint",
+      "probiotics": "Probiotics",
+      "mushroom": "Mushroom",
+      "livestock": "Livestock",
+      "aquatic": "Aquatic"
+    },
+    "catalog": [
+      {
+        "slug": "hip-joint-soft-chews",
+        "category": "joint",
+        "image": "hip-joint",
+        "name": "Hip & Joint Soft Chews",
+        "imageAlt": "Anjin hip and joint soft chews",
+        "ingredients": "Glucosamine · Chondroitin · MSM · Green Lipped Mussel",
+        "format": "Soft chews · 90–120 count per bottle",
+        "assetName": "Hip & Joint Soft Chews — Spec Sheet"
+      },
+      {
+        "slug": "hip-joint-powder",
+        "category": "joint",
+        "image": "hip-joint",
+        "name": "Hip & Joint Powder",
+        "imageAlt": "Anjin hip and joint joint-support powder jar",
+        "ingredients": "Glucosamine · Chondroitin · MSM",
+        "format": "Powder · 30-day jar",
+        "assetName": "Hip & Joint Powder — Spec Sheet"
+      },
+      {
+        "slug": "probiotic-soft-chews",
+        "category": "probiotics",
+        "image": "probiotic",
+        "name": "Probiotic Soft Chews",
+        "imageAlt": "Anjin probiotic soft chews",
+        "ingredients": "Lactobacillus · Bifidobacterium · Prebiotics · Digestive enzymes",
+        "format": "Soft chews · 60–90 count per bottle",
+        "assetName": "Probiotic Soft Chews — Spec Sheet"
+      },
+      {
+        "slug": "probiotic-powder-sachets",
+        "category": "probiotics",
+        "image": "probiotic",
+        "name": "Probiotic Powder Sachets",
+        "imageAlt": "Anjin probiotic powder sachet pack",
+        "ingredients": "Lactobacillus · Bifidobacterium · Prebiotics",
+        "format": "30-sachet powder pack",
+        "assetName": "Probiotic Powder Sachets — Spec Sheet"
+      },
+      {
+        "slug": "functional-mushroom-soft-chews",
+        "category": "mushroom",
+        "image": "mushroom",
+        "name": "Functional Mushroom Soft Chews",
+        "imageAlt": "Anjin functional mushroom soft chews",
+        "ingredients": "Turkey Tail · Lion's Mane · Reishi · Cordyceps",
+        "format": "Soft chews · 90–120 count per bottle",
+        "assetName": "Functional Mushroom Soft Chews — Spec Sheet"
+      },
+      {
+        "slug": "livestock-oral-solutions",
+        "category": "livestock",
+        "image": "livestock",
+        "name": "Livestock Oral Solutions",
+        "imageAlt": "Anjin livestock oral solution containers",
+        "ingredients": "Customisable per brief — vitamin, mineral and functional blends",
+        "format": "Bulk oral solutions · 1 L · 5 L · 25 L containers",
+        "assetName": "Livestock Oral Solutions — Spec Sheet"
+      },
+      {
+        "slug": "feed-additive-pre-mixes",
+        "category": "livestock",
+        "image": "livestock",
+        "name": "Feed Additive Pre-Mixes",
+        "imageAlt": "Anjin feed additive pre-mix bag",
+        "ingredients": "Vitamin · Mineral · TCM extract pre-mixes",
+        "format": "Powder pre-mix · 25 kg bags",
+        "assetName": "Feed Additive Pre-Mixes — Spec Sheet"
+      },
+      {
+        "slug": "water-quality-improvers",
+        "category": "aquatic",
+        "image": "aquatic",
+        "name": "Water Quality Improvers",
+        "imageAlt": "Anjin water quality improver powder",
+        "ingredients": "Mineral and microbial blends",
+        "format": "Powder · 1 kg · 5 kg · 25 kg",
+        "assetName": "Water Quality Improvers — Spec Sheet"
+      },
+      {
+        "slug": "aquatic-functional-supplements",
+        "category": "aquatic",
+        "image": "aquatic",
+        "name": "Aquatic Functional Supplements",
+        "imageAlt": "Anjin aquatic functional supplement liquid concentrate",
+        "ingredients": "Functional supplement blends formulated for aquaculture",
+        "format": "Liquid concentrate · 1 L · 5 L · 25 L",
+        "assetName": "Aquatic Functional Supplements — Spec Sheet"
+      }
+    ],
+    "footerCta": {
+      "eyebrow": "Don't see the format you need?",
+      "title": "We formulate against your brief — soft chews, powders, sachets, tablets, granules and oral solutions.",
+      "subtitle": "Our R&D centre maintains 500+ formulations and develops new ones from a written brief in 2–4 weeks.",
+      "primaryCta": "Talk to our OEM team",
+      "secondaryCta": "Request samples"
+    }
+  },
+  "oemOdm": {
+    "hero": {
+      "eyebrow": "OEM / ODM Contract Manufacturing",
+      "title": "Private-label pet supplements, manufactured under FDA registration and cGMP.",
+      "subtitle": "Anjin Global runs a five-stage OEM/ODM programme from first consultation to delivered pallet. 60,000 sqm across three GMP-certified bases in Henan, with formulation, sampling and full-scale production handled in-house.",
+      "primaryCta": "Request samples",
+      "secondaryCta": "Talk to our OEM team"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "Five stages from concept to first commercial shipment.",
+      "subtitle": "Each stage is owned by a named contact on the Anjin side, with documented deliverables your procurement and compliance teams can audit.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Consultation",
+          "body": "Brief our OEM team on target market, claims framework, MOQ tier and timeline. We respond with a feasibility note within 24 hours."
+        },
+        {
+          "number": "02",
+          "title": "Formulation",
+          "body": "Choose from 500+ on-file formulations or co-develop a new one with our R&D centre. Every recipe is reviewed against your destination market's regulations."
+        },
+        {
+          "number": "03",
+          "title": "Sampling",
+          "body": "Stock samples ship in 3–5 days. Custom-formulated samples are produced and delivered in 2–4 weeks, with full COA."
+        },
+        {
+          "number": "04",
+          "title": "Production",
+          "body": "Manufactured at one of three GMP-certified bases on the production line that fits your format. Lead time is 35–45 days from deposit received."
+        },
+        {
+          "number": "05",
+          "title": "Delivery",
+          "body": "FOB Shanghai, CIF Los Angeles or DDP New York. We handle export filing, COA, and shipping documentation end-to-end."
+        }
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "Capability sheet",
+      "title": "The numbers your procurement team needs in one place.",
+      "subtitle": "Indicative figures — confirmed per product on quote. All terms documented in the proforma invoice before deposit.",
+      "headers": {
+        "parameter": "Parameter",
+        "detail": "Detail"
+      },
+      "rows": [
+        {
+          "label": "Minimum order quantity",
+          "value": "500–2,000 bottles, typical. Confirmed per product."
+        },
+        {
+          "label": "Production lead time",
+          "value": "35–45 days from 30% deposit received."
+        },
+        {
+          "label": "Sample lead time",
+          "value": "Stock samples: 3–5 days. Custom-formulated samples: 2–4 weeks."
+        },
+        {
+          "label": "Available formats",
+          "value": "Soft chews · Powders · Sachets · Tablets · Granules · Oral solutions · Pre-mixes."
+        },
+        {
+          "label": "Customisable parameters",
+          "value": "Formula · Ingredient ratios · Flavour · Colour · Shape · Hardness · Packaging · Label artwork · Carton."
+        },
+        {
+          "label": "Price tiers",
+          "value": "5,000 / 10,000 / 50,000 units. Quote valid for 30 days."
+        },
+        {
+          "label": "Payment terms",
+          "value": "30% T/T deposit · 70% against Bill of Lading copy."
+        },
+        {
+          "label": "Incoterms",
+          "value": "FOB Shanghai · CIF Los Angeles · DDP New York."
+        }
+      ]
+    },
+    "samples": {
+      "eyebrow": "Sample strategy",
+      "title": "Stock or custom — pick the path that matches your launch window.",
+      "subtitle": "Most procurement teams begin with a stock sample to validate quality, then move to a custom-formulated sample once the brief is locked.",
+      "options": [
+        {
+          "tag": "Stock sample",
+          "title": "3–5 day turnaround",
+          "body": "Drawn from current production runs across our priority pet supplement lines: Hip & Joint, Probiotic, and Functional Mushroom soft chews. Includes specification sheet and Certificate of Analysis.",
+          "bullets": [
+            "Best for first-pass quality validation",
+            "Shipped from Zhengzhou via DHL or FedEx",
+            "No tooling charges, no MOQ commitment"
+          ]
+        },
+        {
+          "tag": "Custom sample",
+          "title": "2–4 week turnaround",
+          "body": "Produced from your formulation brief — adjusted ingredients, ratios, flavour profile, shape, colour and packaging. Includes COA, stability indication and a regulatory note for your destination market.",
+          "bullets": [
+            "Best when claims and label are already drafted",
+            "Includes one revision round at no charge",
+            "Tooling cost waived above the 10,000-unit tier"
+          ]
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Get started",
+      "title": "Tell us what you need — samples ship within five business days.",
+      "subtitle": "Our OEM team replies within 24 hours. Free samples are dispatched once we confirm your destination market and product brief."
+    },
+    "compliance": {
+      "title": "Manufactured under documented compliance.",
+      "body": "Every shipment leaves our facilities with the documentation your customs broker, retailer and regulator expect: FDA Food Facility Registration, Certificate of Analysis, GMP certificate copy and EU CE Declaration of Conformity for applicable models."
+    }
+  }
+}
