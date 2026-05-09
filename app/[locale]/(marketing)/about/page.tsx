@@ -76,7 +76,7 @@ export default function AboutPage() {
             <span className="text-label text-[var(--color-brand-secondary)]">
               {t('hero.eyebrow')}
             </span>
-            <h1 className="text-display text-[var(--color-neutral-900)]">{t('hero.title')}</h1>
+            <h1 className="text-hero text-[var(--color-brand-primary)]">{t('hero.title')}</h1>
             <p className="text-body max-w-2xl text-[var(--color-neutral-700)]">
               {t('hero.subtitle')}
             </p>
@@ -135,6 +135,43 @@ export default function AboutPage() {
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      <section className="bg-[var(--color-surface-deep)] text-[var(--color-surface)]">
+        <div className="mx-auto w-full max-w-7xl px-6 py-24">
+          <div className="mb-12 max-w-3xl">
+            <span className="text-label text-[var(--color-brand-accent-soft)]">
+              {t('video.eyebrow')}
+            </span>
+            <h2 className="text-h2 mt-3 text-[var(--color-surface)]">{t('video.title')}</h2>
+            <p className="text-body mt-4 text-[var(--color-neutral-100)]/85">
+              {t('video.subtitle')}
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-lg bg-[var(--color-neutral-900)] shadow-lg">
+            <video
+              controls
+              preload="none"
+              playsInline
+              aria-label={t('video.videoLabel')}
+              className="block aspect-video w-full"
+            >
+              <source src="/videos/factory-tour.mp4" type="video/mp4" />
+              <p className="p-6 text-small text-[var(--color-neutral-100)]">
+                {t('video.fallback')}{' '}
+                <a
+                  href="/downloads/anjin-pet-brochure.pdf"
+                  className="font-medium text-[var(--color-brand-accent-soft)] underline"
+                >
+                  {t('video.fallbackCta')}
+                </a>
+              </p>
+            </video>
+          </div>
+
+          <p className="mt-3 text-small text-[var(--color-neutral-400)]">{t('video.captions')}</p>
         </div>
       </section>
 

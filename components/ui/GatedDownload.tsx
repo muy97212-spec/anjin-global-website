@@ -34,6 +34,8 @@ export interface GatedDownloadProps {
   assetName: string
   assetType: GatedAssetType
   ctaLabel: string
+  /** Optional public URL of a real file to deliver after lead capture. */
+  assetUrl?: string
   className?: string
   triggerVariant?: 'primary' | 'secondary' | 'ghost'
 }
@@ -42,11 +44,27 @@ export function GatedDownload({
   assetName,
   assetType,
   ctaLabel,
+  assetUrl,
   className,
   triggerVariant = 'primary',
 }: GatedDownloadProps) {
   const [open, setOpen] = React.useState(false)
   const t = useTranslations('common')
+
+  const handleSuccess = React.useCallback(() => {
+    if (assetUrl) {
+      const link = document.createElement('a')
+      link.href = assetUrl
+      link.target = '_blank'
+      link.rel = 'noopener noreferrer'
+      const filename = assetUrl.split('/').pop()
+      if (filename) link.download = filename
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    }
+    setOpen(false)
+  }, [assetUrl])
 
   React.useEffect(() => {
     if (!open) return
@@ -116,7 +134,7 @@ export function GatedDownload({
               </div>
 
               <div className="p-2">
-                <LeadForm variant="gated" onSuccess={() => setOpen(false)} className="border-0 shadow-none" />
+                <LeadForm variant="gated" onSuccess={handleSuccess} className="border-0 shadow-none" />
               </div>
             </motion.div>
           </motion.div>

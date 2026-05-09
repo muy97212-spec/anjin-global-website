@@ -152,40 +152,18 @@
       ]
     },
     "products": {
-      "eyebrow": "Priority product lines",
-      "title": "Three soft chew categories engineered for global pet supplement brands.",
-      "subtitle": "All three priority lines are formulated, manufactured and packaged in our FDA-registered, cGMP-certified facilities and ship under your private label.",
-      "ctaLabel": "Download spec sheet",
-      "labels": {
-        "ingredients": "Key ingredients",
-        "format": "Format",
-        "marketContext": "Market context"
-      },
-      "items": [
-        {
-          "title": "Hip & Joint Soft Chews",
-          "imageAlt": "Anjin hip and joint soft chews",
-          "ingredients": "Glucosamine · Chondroitin · MSM · Green Lipped Mussel",
-          "format": "Soft chews · 90–120 count per bottle",
-          "marketNote": "Largest category — 28% market share, $2.1B globally.",
-          "assetName": "Hip & Joint Soft Chews — Spec Sheet"
-        },
-        {
-          "title": "Probiotic Soft Chews & Powder",
-          "imageAlt": "Anjin probiotic soft chews and powder sachets",
-          "ingredients": "Lactobacillus · Bifidobacterium · Prebiotics · Digestive enzymes",
-          "format": "60–90 soft chews per bottle, or 30-sachet powder packs",
-          "marketNote": "Fastest growing category — 11.4% CAGR.",
-          "assetName": "Probiotic Soft Chews & Powder — Spec Sheet"
-        },
-        {
-          "title": "Functional Mushroom Soft Chews",
-          "imageAlt": "Anjin functional mushroom soft chews",
-          "ingredients": "Turkey Tail · Lion's Mane · Reishi · Cordyceps",
-          "format": "Soft chews · 90–120 count per bottle",
-          "marketNote": "Sourced from China — globally unmatched cost and quality.",
-          "assetName": "Functional Mushroom Soft Chews — Spec Sheet"
-        }
+      "eyebrow": "Product reel",
+      "title": "Six flagship private-label products from our pet supplement line.",
+      "subtitle": "All formulated, manufactured and packaged in Anjin's FDA-registered, cGMP-certified facilities — ready to ship under your brand.",
+      "viewAllLabel": "Browse the full catalog",
+      "viewProductLabel": "View product",
+      "featuredSlugs": [
+        "cartilage-care",
+        "multivitamin-tablets",
+        "pet-gut-health",
+        "calcium-star",
+        "fish-oil",
+        "puppy-formula"
       ]
     },
     "socialProof": {
@@ -357,6 +335,15 @@
           "body": "Fourth GMP cycle passed under the PRC Ministry of Agriculture's new-version requirements; remains the current operating certificate."
         }
       ]
+    },
+    "video": {
+      "eyebrow": "Inside the facility",
+      "title": "Take a tour of the Anjin production network.",
+      "subtitle": "Five-minute walk-through of our GMP-certified production bases and finished-product line — recorded for our international procurement audience.",
+      "videoLabel": "Anjin Global facility tour",
+      "captions": "Video has no spoken dialogue; captions not required.",
+      "fallback": "Your browser does not support the video tag. Download the brochure for a written tour:",
+      "fallbackCta": "Download Anjin Pet Supplement Brochure"
     },
     "factory": {
       "eyebrow": "Factory footprint",
@@ -554,7 +541,8 @@
         {
           "assetName": "FDA Food Facility Registration Certificate (Reg. 19620201066)",
           "assetType": "whitepaper",
-          "ctaLabel": "Request FDA FFR certificate"
+          "ctaLabel": "Request FDA FFR certificate",
+          "assetUrl": "/downloads/fda-ffr-registration.pdf"
         },
         {
           "assetName": "Veterinary Drug GMP Certificate (2023 cycle)",
@@ -569,7 +557,64 @@
         {
           "assetName": "Sample Certificate of Analysis — Pet Supplement Soft Chews",
           "assetType": "coa",
-          "ctaLabel": "Request sample COA"
+          "ctaLabel": "Request sample COA",
+          "assetUrl": "/downloads/third-party-test-report-1.pdf"
+        },
+        {
+          "assetName": "Anjin Pet Supplement Brochure (full product overview)",
+          "assetType": "catalog",
+          "ctaLabel": "Request product brochure",
+          "assetUrl": "/downloads/anjin-pet-brochure.pdf"
+        }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Certificate gallery",
+      "title": "See the actual certificates and licences on file.",
+      "subtitle": "Click any thumbnail to view the full certificate. PDF copies are released to qualified procurement teams via the request panel below.",
+      "viewLabel": "View full certificate",
+      "items": [
+        {
+          "label": "Veterinary Drug GMP Certificate",
+          "issuer": "PRC Ministry of Agriculture · 2023 cycle",
+          "imageSrc": "/images/certifications/gmp-certificate.jpg",
+          "alt": "Anjin Veterinary Drug GMP certificate scan, 2023 cycle"
+        },
+        {
+          "label": "EU CE + GPSR Declaration",
+          "issuer": "ICR Notified Body · Valid through 2031-01",
+          "imageSrc": "/images/certifications/ce-certificate.png",
+          "alt": "Anjin EU CE + GPSR Declaration of Conformity scan"
+        },
+        {
+          "label": "Production Licence",
+          "issuer": "PRC Ministry of Agriculture and Rural Affairs",
+          "imageSrc": "/images/certifications/production-license.jpg",
+          "alt": "Anjin production licence scan"
+        },
+        {
+          "label": "Feed Additive Production Licence",
+          "issuer": "PRC Ministry of Agriculture and Rural Affairs",
+          "imageSrc": "/images/certifications/feed-additive-license.jpg",
+          "alt": "Anjin feed additive production licence scan"
+        },
+        {
+          "label": "Export Filing Registration",
+          "issuer": "PRC General Administration of Customs",
+          "imageSrc": "/images/certifications/export-filing.jpg",
+          "alt": "Anjin export filing registration scan"
+        },
+        {
+          "label": "Business Licence",
+          "issuer": "PRC Administration for Market Regulation",
+          "imageSrc": "/images/certifications/business-license.jpg",
+          "alt": "Henan Anjin Biotechnology Co., Ltd. business licence scan"
+        },
+        {
+          "label": "Composition Analysis Test Report",
+          "issuer": "Third-party laboratory analysis",
+          "imageSrc": "/images/certifications/composition-analysis-report.jpg",
+          "alt": "Anjin composition analysis test report scan"
         }
       ]
     },
